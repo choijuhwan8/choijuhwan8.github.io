@@ -1,0 +1,69 @@
+
+
+.width{ 
+    width:500px
+}
+
+.navbar{
+    opacity: 0.8;
+    border-radius: 20px;
+}
+.btn:hover {
+    border: 2px solid #104F55;
+background-color: rgba(365,365,365,0.5);
+cursor: pointer;
+color: #104F55;
+opacity: .8;
+transition: .3s;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.header{ 
+    text-align: center;
+    /* background-image: linear-gradient(to right, rgb(53, 52, 52), black, rgb(53, 52, 52)); */
+    font-family: 'Corben', Georgia, Times, serif;
+    padding-top: 70px;
+}
+h1{ 
+    color: white;
+    font-weight:bolder;
+
+}
+body { 
+    font-family: 'Nobile', Helvetica, Arial, sans-serif;
+}
+.lead{ 
+    /* color: lightgreen; */
+    /* background-color: green; */
+    color: white;
+}
+.nav-link {
+    color: black;
+}
+
+
+
+
+.work-set1 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: visible;
+    grid-column-gap: 3vw;
+    grid-row-gap: 0vw;
+}
+.lead {
+    color: purple;
+    text-shadow: -3px 0 white, 0 3px white, 3px 0 white, 0 -3px white;
+    font-size: 30px;
+}
+.text_2 {
+    color: white;
+    font-size: 30px;
+    text-shadow: -3px 0 purple, 0 3px purple, 3px 0 purple, 0 -3px purple;
+
+}
+.name {
+    text-shadow: -7px 0 purple, 0 7px purple, 7px 0 purple, 0 -7px purple;
+    font-size: 70px;
+}
