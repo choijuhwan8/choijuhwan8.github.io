@@ -87,6 +87,13 @@ img{
     margin: var(--mb-4) 0;
     text-align: center;
 }
+.section-title_img{
+    position: relative;
+    font-size: var(--h2-font-size);
+    color: var(--dark-color);
+    margin: var(--mb-4) 0;
+    text-align: center;
+}
 .section-title::after{
     position: absolute;
     content: "";
@@ -207,8 +214,8 @@ img{
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 295px;
-    /* height: 80%; */
+    width: 80%;
+    height: 80%;
 }
 
 /* about */
@@ -488,3 +495,8 @@ img{
           right: 24%;
       }
   }
+
+  /* .arrow{
+    width: 100px;
+    height: 100px;
+  } */
